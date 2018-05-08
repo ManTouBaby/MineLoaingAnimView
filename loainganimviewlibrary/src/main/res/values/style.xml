@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="BallAnimView">
+        <attr name="Anim_Width" format="dimension|reference"></attr>
+        <attr name="Anim_Height" format="dimension|reference"></attr>
+    </declare-styleable>
+
+    <!--AnimImageView 属性设置-->
+    <declare-styleable name="AnimImageView">
+        <attr name="anim_type">
+            <enum name="BALL_ANIM_VIEW" value="0" />
+        </attr>
+    </declare-styleable>
+</resources>
